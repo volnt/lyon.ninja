@@ -18,7 +18,12 @@
       <a class="button button-primary" href="https://github.com/volnt/lyon.ninja">Join the list</a>
     </section>
     <div class="container">
-      <div class="row developer" ng-repeat="developer in developers | shuffle">
+      
+      <div class="tags" ng-if="tags.length > 0">
+	Selected tags : <a class="button button-primary" ng-repeat="tag in tags" ng-click="toggleTag(tag)">{{ tag }}</a>
+      </div>
+      
+      <div class="row developer" ng-repeat="developer in developers | filterByTags:tags">
 	<h5><a ng-href="{{ developer.website }}" ng-if="developer.website">#</a> {{ developer.name }} · <small>{{ developer.headline }}</small></h5>
 	<div class="twelve columns svg">
 	  <a ng-href="mailto:{{ developer.email }}" class="webicon mail" ng-if="developer.email">Mail</a>
@@ -26,6 +31,9 @@
 	  <a ng-href="https://linkedin.com/in/{{ developer.linkedin }}" class="webicon linkedin" ng-if="developer.linkedin">Linkedin</a>
 	  <a ng-href="https://twitter.com/{{ developer.twitter }}" class="webicon twitter" ng-if="developer.twitter">Twitter</a>
 	  <a ng-href="https://careers.stackoverflow.com/{{ developer.socareers }}" class="webicon stackoverflow" ng-if="developer.socareers">Stackoverflow Careers</a>
+	  <span class="tag" ng-repeat="tag in developer.tags">
+	    <a ng-click="toggleTag(tag)" class="button" ng-class="tags.indexOf(tag) !== -1 ? 'button-primary' : ''">{{ tag }}</a>
+	  </span>
 	</div>
       </div>
     </div>
