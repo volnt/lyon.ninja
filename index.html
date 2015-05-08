@@ -9,6 +9,7 @@
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/webicons.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
@@ -19,13 +20,13 @@
     </section>
     <div class="container">
       <div class="row developer" ng-repeat="developer in developers | shuffle">
-	<h5>{{ developer.name }} · <small>{{ developer.headline }}</small></h5>
-	<div class="twelve columns">
-	  <a ng-href="mailto:{{ developer.email }}" ng-if="developer.email"><i class="svg-icon email"></i></a>
-	  <a ng-href="https://github.com/{{ developer.github }}" ng-if="developer.github"><i class="svg-icon github"></i></a>
-	  <a ng-href="https://linkedin.com/in/{{ developer.linkedin }}" ng-if="developer.linkedin"><i class="svg-icon linkedin"></i></a>
-	  <a ng-href="https://twitter.com/{{ developer.twitter }}" ng-if="developer.twitter"><i class="svg-icon twitter"></i></a>
-	  <a ng-href="https://careers.stackoverflow.com/{{ developer.socareers }}" ng-if="developer.socareers"><i class="svg-icon stackoverflow"></i></a>
+	<h5><a ng-href="{{ developer.website }}" ng-if="developer.website">#</a> {{ developer.name }} · <small>{{ developer.headline }}</small></h5>
+	<div class="twelve columns svg">
+	  <a ng-href="mailto:{{ developer.email }}" class="webicon mail" ng-if="developer.email">Mail</a>
+	  <a ng-href="https://github.com/{{ developer.github }}" class="webicon github" ng-if="developer.github">Github</a>
+	  <a ng-href="https://linkedin.com/in/{{ developer.linkedin }}" class="webicon linkedin" ng-if="developer.linkedin">Linkedin</a>
+	  <a ng-href="https://twitter.com/{{ developer.twitter }}" class="webicon twitter" ng-if="developer.twitter">Twitter</a>
+	  <a ng-href="https://careers.stackoverflow.com/{{ developer.socareers }}" class="webicon stackoverflow" ng-if="developer.socareers">Stackoverflow Careers</a>
 	</div>
       </div>
     </div>
