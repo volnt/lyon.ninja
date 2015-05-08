@@ -19,8 +19,8 @@
     </section>
     <div class="container">
       
-      <div class="tags" ng-if="tags.length > 0">
-	Selected tags : <a class="button button-primary" ng-repeat="tag in tags" ng-click="toggleTag(tag)">{{ tag }}</a>
+      <div class="tags">
+	Filter tags : <a class="button button-primary" ng-repeat="tag in tags" ng-click="toggleTag(tag)">{{ tag }}</a><form ng-submit="toggleTag(formTag); formTag=''"><input type="text" ng-model="formTag" placeholder="#newtag"></form>
       </div>
       
       <div class="row developer" ng-repeat="developer in developers | filterByTags:tags">

@@ -18,3 +18,7 @@
 .tags a {
     margin-right: 5px;
 }
+
+.tags form {
+    display: inline-block;
+}

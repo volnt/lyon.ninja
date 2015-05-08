@@ -2,7 +2,6 @@ var app = angular.module("app", []);
 
 app.filter("filterByTags", function() {
     return (function(array, tags) {
-	console.log("filterByTags", tags);
 	var filtered = [];
 
 	if (tags === undefined || !tags || tags.length === 0) {
@@ -32,7 +31,19 @@ app.controller("IndexCtrl", function ($scope, $http) {
 	$scope.error = false;
 	$scope.tags = [];
 
+	var sanitizeTag = function (tag) {
+	    if (tag.length > 1) {
+		if (tag[0] !== '#') {
+		    tag = '#' + tag;
+		}
+	    } else {
+		tag = '#';
+	    }
+	    return tag;
+	};
+
 	$scope.toggleTag = function (tag) {
+	    tag = sanitizeTag(tag);
 	    var index = $scope.tags.indexOf(tag);
 
 	    if (index !== -1) {
