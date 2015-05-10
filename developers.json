@@ -10,6 +10,15 @@
 	    "github": "volnt",
 	    "socareers": "florent.esp",
 	    "tags": ["#python", "#javascript", "#fullstack", "#web"]
+	},
+	{
+	    "name": "Yann Vaillant",
+	    "headline": "Fullstuff developer",
+	    "website": "http://vaillant.im",
+	    "email": "yann@vaillant.im",
+	    "twitter": "vayan",
+	    "github": "vayan",
+	    "tags": ["#ruby", "#rails", "#go", "#fullstack", "#javascript"]
 	}
     ]
 }
