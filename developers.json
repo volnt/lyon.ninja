@@ -28,6 +28,15 @@
 	    "twitter": "mike_choko",
 	    "github": "Choko256",
 	    "tags": ["#python", "#web", "#javascript", "#css3", "#html5"]
+	},
+	{
+	    "name": "Thibault Modat",
+	    "headline": "Lead developer, Free & OpenSource Addict",
+	    "website": "http://thibault-modat.fr/",
+	    "email": "thibault@modat.fr",
+	    "twitter": "openStark",
+	    "github": "ThibaultModat",
+	    "tags": ["#GnuLinux", "#web", "#FullStack"]
 	}
     ]
 }
