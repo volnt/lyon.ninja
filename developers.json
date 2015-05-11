@@ -46,6 +46,15 @@
 	    "twitter": "AnToitNoeud",
 	    "github": "Antoine38660",
 	    "tags": ["#c++", "#java", "#web", "#php", "#javascript", "#python"]
+	},
+        {
+	    "name": "Maxime Constantinian",
+	    "headline": "Game developer & Roadiz contributor",
+	    "website": "http://azokal.im",
+	    "email": "maxime@azokal.im",
+	    "twitter": "azokal",
+	    "github": "azokal",
+	    "tags": ["#c++", "#python", "#gamedev", "#symfony", "#roadiz"]
 	}
     ]
 }
