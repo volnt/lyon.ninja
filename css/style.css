@@ -1,10 +1,14 @@
 .header {
-    background: url("../images/background.jpg") no-repeat center;
+    background: url("../images/background.jpg") no-repeat center bottom;
     text-align: center;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     color: white;
     margin-bottom: 40px;
+}
+
+.header h2 {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .developer {
