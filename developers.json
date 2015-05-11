@@ -37,6 +37,15 @@
 	    "twitter": "openStark",
 	    "github": "ThibaultModat",
 	    "tags": ["#GnuLinux", "#web", "#FullStack"]
+        },
+        {
+	    "name": "Antoine Boisadam",
+	    "headline": "Young but solid developper",
+	    "website": "http://www.girlvsgirl.me",
+	    "email": "antoine@jaaccelere.com",
+	    "twitter": "AnToitNoeud",
+	    "github": "Antoine38660",
+	    "tags": ["#c++", "#java", "#web", "#php", "#javascript", "#python"]
 	}
     ]
 }
