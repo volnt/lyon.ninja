@@ -19,6 +19,15 @@
 	    "twitter": "vayan",
 	    "github": "vayan",
 	    "tags": ["#ruby", "#rails", "#go", "#fullstack", "#javascript"]
+	},
+	{
+	    "name": "Michael Chacaton",
+	    "headline": "Lead developer & Python Addict",
+	    "website": "https://pix.chaksoft.fr/",
+	    "email": "choko@chaksoft.fr",
+	    "twitter": "mike_choko",
+	    "github": "Choko256",
+	    "tags": ["#python", "#web", "#javascript", "#css3", "#html5"]
 	}
     ]
 }
