@@ -46,6 +46,16 @@
 	    "twitter": "AnToitNoeud",
 	    "github": "Antoine38660",
 	    "tags": ["#c++", "#java", "#web", "#php", "#javascript", "#python"]
-	}
+	},
+  {
+      "name": "Benjamin Grima",
+      "headline": "iOS And Fullstack Web Developer",
+      "website": "http://benjamin.grima.info",
+      "email": "benjamin@grima.info",
+      "twitter": "grimabe",
+      "linkedin": "benjamingrima",
+      "github": "grimabe",
+      "tags": ["#ios","#swift", "#objective-c", "#php", "#javascript", "#symfony"]
+  }
     ]
 }
