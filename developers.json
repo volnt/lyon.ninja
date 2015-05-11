@@ -46,6 +46,15 @@
 	    "twitter": "AnToitNoeud",
 	    "github": "Antoine38660",
 	    "tags": ["#c++", "#java", "#web", "#php", "#javascript", "#python"]
+	},
+	{
+	    "name": "Pierre-Antoine Porte",
+	    "headline": "Love the web and is addict to the mobility",
+	    "website": "http://www.portepa.com",
+	    "email": "porte.pierreantoine@gmail.com",
+	    "twitter": "pa_porte",
+	    "github": "portepa",
+	    "tags": ["#javascript", "#java", "#git", "#web", "#back-end", "#c++"]
 	}
     ]
 }
