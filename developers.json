@@ -93,6 +93,14 @@
             "linkedin": "ambroisemaupate",
             "github": "ambroisemaupate",
             "tags": ["#php", "#roadiz", "#web", "#fullstack", "#symfony", "#processing", "#openframeworks", "#docker"]
+        },
+        {
+            "name": "Thomas Aufresne",
+            "headline": "Fullstack developer wannabe, REZO ZERO intern and Roadiz contributor",
+            "email": "thomas.aufresne@gmail.com",
+            "twitter": "thomAufresne",
+            "github": "notorigine",
+            "tags": ["#php", "#roadiz", "#web", "#fullstack", "#frontend", "#backend", "#symfony"]
         }
     ]
 }
