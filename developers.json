@@ -37,8 +37,8 @@
 	    "twitter": "openStark",
 	    "github": "ThibaultModat",
 	    "tags": ["#GnuLinux", "#web", "#FullStack"]
-        },
-        {
+	},
+	{
 	    "name": "Antoine Boisadam",
 	    "headline": "Young but solid developer",
 	    "website": "http://www.girlvsgirl.me",
@@ -64,6 +64,15 @@
 	    "twitter": "azokal",
 	    "github": "azokal",
 	    "tags": ["#c++", "#python", "#gamedev", "#symfony", "#roadiz"]
+        },
+        {
+	    "name": "Anaïs Payet",
+	    "headline": "iOS and Android developer, Duchess member",
+	    "website": "http://apaillette.fr",
+	    "twitter": "Sianay_",
+	    "github": "Sianay",
+	    "linkedin":"https://fr.linkedin.com/in/anaispayet",
+	    "tags": ["#ios", "#android","#mobile", "#duchess"]
 	}
     ]
 }
