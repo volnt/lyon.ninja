@@ -55,6 +55,15 @@
 	    "twitter": "pa_porte",
 	    "github": "portepa",
 	    "tags": ["#javascript", "#java", "#git", "#web", "#back-end", "#c++"]
+        },
+        {
+	    "name": "Maxime Constantinian",
+	    "headline": "Game developer & Roadiz contributor",
+	    "website": "http://azokal.im",
+	    "email": "maxime@azokal.im",
+	    "twitter": "azokal",
+	    "github": "azokal",
+	    "tags": ["#c++", "#python", "#gamedev", "#symfony", "#roadiz"]
 	}
     ]
 }
