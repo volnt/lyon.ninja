@@ -1,51 +1,61 @@
 {
     "developers": [
-	{
-	    "name": "Florent Espanet",
-	    "headline": "Fullstack developer & python lover.",
-	    "website": "http://www.volent.fr",
-	    "email": "florent.esp@gmail.com",
-	    "twitter": "volent_",
-	    "linkedin": "florentespanet",
-	    "github": "volnt",
-	    "socareers": "florent.esp",
-	    "tags": ["#python", "#javascript", "#fullstack", "#web"]
-	},
-	{
-	    "name": "Yann Vaillant",
-	    "headline": "Fullstuff developer",
-	    "website": "http://vaillant.im",
-	    "email": "yann@vaillant.im",
-	    "twitter": "vayan",
-	    "github": "vayan",
-	    "tags": ["#ruby", "#rails", "#go", "#fullstack", "#javascript"]
-	},
-	{
-	    "name": "Michael Chacaton",
-	    "headline": "Lead developer & Python Addict",
-	    "website": "https://pix.chaksoft.fr/",
-	    "email": "choko@chaksoft.fr",
-	    "twitter": "mike_choko",
-	    "github": "Choko256",
-	    "tags": ["#python", "#web", "#javascript", "#css3", "#html5"]
-	},
-	{
-	    "name": "Thibault Modat",
-	    "headline": "Lead developer, Free & OpenSource Addict",
-	    "website": "http://thibault-modat.fr/",
-	    "email": "thibault@modat.fr",
-	    "twitter": "openStark",
-	    "github": "ThibaultModat",
-	    "tags": ["#GnuLinux", "#web", "#FullStack"]
-        },
-        {
-	    "name": "Antoine Boisadam",
-	    "headline": "Young but solid developer",
-	    "website": "http://www.girlvsgirl.me",
-	    "email": "antoine@jaaccelere.com",
-	    "twitter": "AnToitNoeud",
-	    "github": "Antoine38660",
-	    "tags": ["#c++", "#java", "#web", "#php", "#javascript", "#python"]
-	}
+    {
+        "name": "Florent Espanet",
+        "headline": "Fullstack developer & python lover.",
+        "website": "http://www.volent.fr",
+        "email": "florent.esp@gmail.com",
+        "twitter": "volent_",
+        "linkedin": "florentespanet",
+        "github": "volnt",
+        "socareers": "florent.esp",
+        "tags": ["#python", "#javascript", "#fullstack", "#web"]
+    },
+    {
+        "name": "Yann Vaillant",
+        "headline": "Fullstuff developer",
+        "website": "http://vaillant.im",
+        "email": "yann@vaillant.im",
+        "twitter": "vayan",
+        "github": "vayan",
+        "tags": ["#ruby", "#rails", "#go", "#fullstack", "#javascript"]
+    },
+    {
+        "name": "Michael Chacaton",
+        "headline": "Lead developer & Python Addict",
+        "website": "https://pix.chaksoft.fr/",
+        "email": "choko@chaksoft.fr",
+        "twitter": "mike_choko",
+        "github": "Choko256",
+        "tags": ["#python", "#web", "#javascript", "#css3", "#html5"]
+    },
+    {
+        "name": "Thibault Modat",
+        "headline": "Lead developer, Free & OpenSource Addict",
+        "website": "http://thibault-modat.fr/",
+        "email": "thibault@modat.fr",
+        "twitter": "openStark",
+        "github": "ThibaultModat",
+        "tags": ["#GnuLinux", "#web", "#FullStack"]
+    },
+    {
+        "name": "Antoine Boisadam",
+        "headline": "Young but solid developer",
+        "website": "http://www.girlvsgirl.me",
+        "email": "antoine@jaaccelere.com",
+        "twitter": "AnToitNoeud",
+        "github": "Antoine38660",
+        "tags": ["#c++", "#java", "#web", "#php", "#javascript", "#python"]
+    },
+    {
+        "name": "Ambroise Maupate",
+        "headline": "REZO ZERO co-founder and Roadiz lead developer",
+        "website": "http://www.rezo-zero.com",
+        "email": "ambroise@rezo-zero.com",
+        "twitter": "ambroisemaupate",
+        "linkedin": "ambroisemaupate",
+        "github": "ambroisemaupate",
+        "tags": ["#php", "#roadiz", "#web", "#fullstack", "#symfony", "#processing", "#openframeworks", "#docker"]
+    }
     ]
 }
